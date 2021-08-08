@@ -23,12 +23,17 @@ struct ShowsView: View {
             ScrollView {
                 LazyVGrid(columns: columns, content: {
                     ForEach(showViewModel.shows) { show in
-                        WebImage(url: show.image.medium)
-                            .resizable()
-                            .indicator(.activity)
-                            .aspectRatio(contentMode: .fit)
-                            .frame(height: 150)
-                            .cornerRadius(8)
+                        
+                        NavigationLink(
+                            destination: TVShowDetailView(tvShow: show),
+                            label: {
+                                WebImage(url: show.image.medium)
+                                    .resizable()
+                                    .indicator(.activity)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(height: 150)
+                                    .cornerRadius(8)
+                            })
                     }
                 })
                 .padding()

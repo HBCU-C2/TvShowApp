@@ -17,6 +17,7 @@
 		BDAE251226C0402900355538 /* TVShowImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE251126C0402900355538 /* TVShowImage.swift */; };
 		BDAE251426C040D800355538 /* ShowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE251326C040D800355538 /* ShowViewModel.swift */; };
 		BDAE251726C0535E00355538 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = BDAE251626C0535E00355538 /* SDWebImageSwiftUI */; };
+		BDAE251926C0564800355538 /* TVShowDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE251826C0564800355538 /* TVShowDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		BDAE250F26C03E8100355538 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
 		BDAE251126C0402900355538 /* TVShowImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowImage.swift; sourceTree = "<group>"; };
 		BDAE251326C040D800355538 /* ShowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewModel.swift; sourceTree = "<group>"; };
+		BDAE251826C0564800355538 /* TVShowDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				BDAE24FB26C03B4A00355538 /* ShowsView.swift */,
+				BDAE251826C0564800355538 /* TVShowDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				BDAE251226C0402900355538 /* TVShowImage.swift in Sources */,
 				BDAE24FC26C03B4A00355538 /* ShowsView.swift in Sources */,
+				BDAE251926C0564800355538 /* TVShowDetailView.swift in Sources */,
 				BDAE24FA26C03B4A00355538 /* TVShowAppApp.swift in Sources */,
 				BDAE251026C03E8100355538 /* Rating.swift in Sources */,
 				BDAE251426C040D800355538 /* ShowViewModel.swift in Sources */,
